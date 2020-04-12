@@ -1,0 +1,14 @@
+E' stato messo a punto il software di automazione della serra in linguaggio c for arduino;
+il software prevede che la pompa e i led si attivino tra le 8 e le 20 secondo condizioni della serra;
+per mantenere l'ora è stato implementato modulo rtc 3231;
+condizioni abilitazione led:
+  -ora tra 8-20
+  -luminosità>460 (valori compresi tra 0 e 1023 ove 1023 buio totale e 0 corrisponde a luce massima)
+condizioni abilitazione ventola:
+  -temperatura > 20°C
+  -umidità>50%
+condizioni abilitazione pompa
+  -ora tra 8-20
+  -umidità terreno < 45%
+inoltre è stato implementato un software per intercettare la comunicazione seriale tra arduino e raspberry in python
+che servirà a catturare i dati della comunicazione seriale e scriverli su db e inviarli al cellulare
