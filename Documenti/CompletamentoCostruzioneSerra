@@ -1,13 +1,16 @@
-E' stata finalmente completata la costruzione dello scheletro della serra;
+E' stata finalmente completata la costruzione dello scheletro della serra.
+
 Sono stati implementati diversi sensori quali:
--DHT11: lettore di umidità e temperatura per tenere sotto controllo i parametri dell'aria nella serra
--Igrometro: per monitorare umidità del terreno
--Fotoresistore per monitorare la luce presente all'interno della serra
--Water sensor: per misurare quanta acqua è ancora presente nel serbatoio
+-DHT11: lettore di umidità e temperatura per tenere sotto controllo i parametri dell'aria nella serra;
+-Igrometro: per monitorare umidità del terreno;
+-Fotoresistore per monitorare la luce presente all'interno della serra;
+-Water sensor: per misurare quanta acqua è ancora presente nel serbatoio.
+
 Inoltre sono stati aggiunti strumenti di manipolazione ambiente quali:
--ventola per ridurre umidità e temperatura
--pompa acqua per irrigazione automatica del terreno
+-ventola per ridurre umidità e temperatura;
+-pompa acqua per irrigazione automatica del terreno.
+
 I sensori sono tutti collegati e funzionanti come gli strumenti, è stato necessario aggiungere relè e alimentazione esterna a 12v
-in quanto la ventola e la pompa richiedono un voltaggio superiore ai 5v per funzionare
-Quindi possiamo assumere che sia completata la costruzione integrale della serra con collegamenti completamente funzionanti
-ora passeremo allo sviluppo del codice arduino in async  per gestire più stati contemporaneamente
+in quanto la ventola e la pompa richiedono un voltaggio superiore ai 5v per funzionare.
+Quindi possiamo assumere che sia completata la costruzione integrale della serra con collegamenti completamente funzionanti.
+Ora passeremo allo sviluppo del codice arduino in async per gestire più stati contemporaneamente.
