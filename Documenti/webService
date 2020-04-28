@@ -1,0 +1,6 @@
+Si è provato a costruire un webservice in linguaggio PHP con risorse in  HTML,
+CSS, JAVASCRIPT per il passaggio dati tra raspberry e applicazione android, 
+a lavori ultimati e dopo aver hostato il webservice su altervista ci si è resi conto che quest'ultimo
+non concede ad applicazioni terze di sovrascrivere i dati perciò si è optato per il passaggio dati 
+tramite monbodbAtlas per ora senza implementazione di un webservice poichè superfluo, forse per le statistiche 
+verrà implementato più avanti
