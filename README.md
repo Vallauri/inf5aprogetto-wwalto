@@ -1,4 +1,4 @@
-                                             +++PROGETTO SERRA AUTOMATIZZATA+++
+                                           +++PROGETTO SERRA AUTOMATIZZATA+++
 
 -Descrizione del progetto
   L'elemento centrale del lavoro è costituito da una serra auto-costruita dotata di diversi sensori. Questa si interfaccia poi ad
