@@ -1,18 +1,22 @@
                                            +++PROGETTO SERRA AUTOMATIZZATA+++
 
 -Descrizione del progetto
-  L'elemento centrale del lavoro è costituito da una serra auto-costruita dotata di diversi sensori. Questa si interfaccia poi ad
-  un Raspberry Pi, che a sua volta andrà a caricare i dati su un Database MongoDB Atlas. Infine, tramite un'appicazione Android 
-  sviluppata in Java, sarà possibile visualizzare lo stato della serra senza essere fisicamente presenti.
+
+  L'elemento centrale del lavoro è costituito da una serra auto-costruita dotata di diversi sensori. Questa si interfaccia poi
+  ad un Raspberry Pi, che a sua volta andrà a caricare i dati su un Database MongoDB Atlas. Infine, tramite un'appicazione
+  Android sviluppata in Java, sarà possibile visualizzare lo stato della serra senza essere fisicamente presenti.
   
 -Roadmap
+
   Vorremmo aggiungere una modalità manuale, ovvero una modalità che permetta dall'applicazione di comandare la serra. Inoltre
   vorremmo anche visualizzare grafici e statistiche creati dai dati forniti in input dalla serra.
   
 -Autori
+
  Fidanza Daniel, Garelli Giacomo e Silvestrini Walter
  
  -Licenze
+ 
   Copyright (c) 2020 ayylmao
 
   Permission is hereby granted, free of charge, to any person obtaining a copy
