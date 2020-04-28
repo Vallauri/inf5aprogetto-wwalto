@@ -1,0 +1,2 @@
+TEST- SEMBRA OK
+FONTE - https://www.mauroalfieri.it/elettronica/tinkercad-circuit-led-e-fotoresistenza.html
